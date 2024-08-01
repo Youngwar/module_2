@@ -1,7 +1,7 @@
 def get_matrix():
-    n = input('Введите количество строк', )
-    m = input('Введите количество столбцов', )
-    value = input('Введите значение', )
+    n = input('Введите количество строк: ', )
+    m = input('Введите количество столбцов: ', )
+    value = input('Введите значение: ', )
     matrix = []
     for i in range(int(n)):
         matrix.append([])
